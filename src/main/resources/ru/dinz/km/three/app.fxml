@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="282.0" prefWidth="648.0" style="-fx-background-color: #2E3348;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.dinz.km.three.PrimaryController">
+   <children>
+      <AnchorPane layoutX="14.0" layoutY="67.0" prefHeight="200.0" prefWidth="620.0" style="-fx-background-color: #fafafa;">
+         <children>
+            <Button fx:id="decide" layoutX="533.0" layoutY="161.0" mnemonicParsing="false" text="Посчитать" />
+            <TextField fx:id="a" layoutX="14.0" layoutY="80.0" prefHeight="25.0" prefWidth="97.0" promptText="a" style="-fx-border-color: #777777; -fx-border-radius: 5;" />
+            <TextField fx:id="b" layoutX="149.0" layoutY="80.0" prefHeight="25.0" prefWidth="97.0" promptText="b" style="-fx-border-color: #777777; -fx-border-radius: 5;" />
+            <TextField fx:id="c" layoutX="286.0" layoutY="80.0" prefHeight="25.0" prefWidth="97.0" promptText="c" style="-fx-border-color: #777777; -fx-border-radius: 5;" />
+            <Text layoutX="118.0" layoutY="97.0" strokeType="OUTSIDE" strokeWidth="0.0" text="X^2" />
+            <Text layoutX="259.0" layoutY="97.0" strokeType="OUTSIDE" strokeWidth="0.0" text="X" />
+            <Text layoutX="394.0" layoutY="96.0" strokeType="OUTSIDE" strokeWidth="0.0" text="=" />
+            <Text fx:id="answer" layoutX="429.0" layoutY="98.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+         </children>
+      </AnchorPane>
+      <Label layoutX="210.0" layoutY="22.0" prefHeight="25.0" prefWidth="229.0" text="Квадратное уравнение" textFill="WHITE">
+         <font>
+            <Font name="Times New Roman Bold" size="22.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
