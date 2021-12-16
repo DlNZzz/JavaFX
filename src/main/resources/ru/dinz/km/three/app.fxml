@@ -17,8 +17,8 @@
             <TextField fx:id="c" layoutX="286.0" layoutY="80.0" prefHeight="25.0" prefWidth="97.0" promptText="c" style="-fx-border-color: #777777; -fx-border-radius: 5;" />
             <Text layoutX="118.0" layoutY="97.0" strokeType="OUTSIDE" strokeWidth="0.0" text="X^2" />
             <Text layoutX="259.0" layoutY="97.0" strokeType="OUTSIDE" strokeWidth="0.0" text="X" />
-            <Text layoutX="394.0" layoutY="96.0" strokeType="OUTSIDE" strokeWidth="0.0" text="=" />
-            <Text fx:id="answer" layoutX="429.0" layoutY="98.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+            <Text layoutX="394.0" layoutY="96.0" strokeType="OUTSIDE" strokeWidth="0.0" text="= 0" />
+            <Text fx:id="answer" layoutX="435.0" layoutY="98.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
          </children>
       </AnchorPane>
       <Label layoutX="210.0" layoutY="22.0" prefHeight="25.0" prefWidth="229.0" text="Квадратное уравнение" textFill="WHITE">
