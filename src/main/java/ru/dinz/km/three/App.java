@@ -14,10 +14,11 @@ import java.io.IOException;
 public class App extends Application {
 
     private static Scene scene;
+    private static String path;
 
     @Override
     public void start(Stage stage) throws IOException {
-        scene = new Scene(loadFXML("app"), 648, 282);
+        scene = new Scene(loadFXML(path), 422, 282);
         stage.setTitle("JavaFX");
         stage.setScene(scene);
         stage.show();
@@ -33,6 +34,7 @@ public class App extends Application {
     }
 
     public static void main(String[] args) {
+        path = "appTwo";
         launch();
     }
 

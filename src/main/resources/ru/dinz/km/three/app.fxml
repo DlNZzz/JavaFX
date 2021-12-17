@@ -21,7 +21,7 @@
             <Text fx:id="answer" layoutX="435.0" layoutY="98.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
          </children>
       </AnchorPane>
-      <Label layoutX="210.0" layoutY="22.0" prefHeight="25.0" prefWidth="229.0" text="Квадратное уравнение" textFill="WHITE">
+      <Label layoutX="210.0" layoutY="22.0" prefHeight="25.0" prefWidth="229.0" text="Квадратное уравнение" textFill="#798076">
          <font>
             <Font name="Times New Roman Bold" size="22.0" />
          </font>
